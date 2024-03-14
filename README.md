@@ -9,7 +9,7 @@ This homepage showcases various sections such as content display, images, text e
 
 ## Deployment
 
-The homepage is deployed using Netlify. The live version can be accessed at [https://65f195965b82930e2d97485e--cozy-pudding-27bb84.netlify.app/](https://65f195965b82930e2d97485e--cozy-pudding-27bb84.netlify.app/).
+The homepage is deployed using Netlify. The live version can be accessed at [link](https://65f264f330634364d7709a9b--incomparable-puppy-f8f286.netlify.app/).
 
 ## Technologies Used
 
