@@ -11,35 +11,46 @@ import ImageWithText from './ImageWithText';
 
 const HomePageContent4 = () => {
   return (
-    <Flex w="85%" m="auto"  direction={'column'} justifyContent={'space-between'} >
-      <Flex justifyContent="center">
-        <Image src={WhyTIS} />
-      </Flex>
-      <Flex w="100%" justifyContent="center" flexWrap="wrap" gap="10">
-        <Box flex="1" p="4" w="40%">
-         
-             <Text textAlign={'start'} fontSize="25" color="rgba(32, 40, 51, 1)" m='0'>A FOCUS ON...</Text>
-       
-         
-           <Text textAlign={'end'} fontSize="40" color="red" m='0'>MANAGEMENT</Text>
-       
-          <Flex justifyContent={'end'} m="10">
-            <Text textAlign={'start'}>Extremely Friendly and Approachable Management. Tula’s International School combines – respect for tradition with a progressive application of modern sciences, academic rigour with a caring heart, and individual appreciation with the warmth of a school community</Text>
-          </Flex>
-          
-        </Box>
-        <Box w="50%" flex="1" p="4" display="flex" justifyContent="center" alignItems="center">
-          <Image src={why2} width="90%" height="auto" />
-        </Box>
-        <Flex flex="1" w="20%" justifyContent={"center"} direction={"column"} >
-          <ImageWithText src={why1} text="CAMPUS" />
-          <ImageWithText src={why12} text="EXPERT INSTRUCTION"/>
-          <ImageWithText src={why123} text="TRAINING METHOD"/>
-          <ImageWithText src={why124} text="RATIO"/>
-          <ImageWithText src={why125} bg="red"/>
-        </Flex>
-      </Flex>
+    
+    <Box className="questionSection" padding="50px" display="flex" flexWrap="wrap">
+    <Text as="h1" width="100%" textAlign="center" fontSize="30px" fontStyle="italic" marginBottom="30px">
+      Why <Text as="span" color="rgba(185, 1, 36, 1)">TIS</Text>?
+    </Text>
+    <Flex flex="1" width="50%" flexDirection="column" justifyContent="center">
+      <Text fontSize="28px" textAlign={'start'} m="0">A FOCUS ON...</Text>
+      <Text color="rgba(185, 1, 36, 1)" fontSize="46px" m="0"  textAlign={'center'}>MANAGEMENT</Text>
+      <Text marginTop="50px" marginRight="50px">
+        Extremely Friendly and Approachable Management. Tula’s International School combines – respect for tradition with a progressive application of modern sciences, academic rigour with a caring heart, and individual appreciation with the warmth of a school community
+      </Text>
     </Flex>
+    <Flex flex="1" width="50%" marginRight="50px">
+      <Image src={why2} alt="Background" borderRadius="5px" width="calc(100% - 150px)" marginRight="50px" objectFit="cover" />
+      <Box>
+        <ul style={{ padding: 0, margin: 0, listStyle: 'none', width: '100px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
+          <li style={{ textAlign: 'center', fontSize: '.9rem', borderRadius: '5px', padding: '5px' }}>
+            <Image src={why1} alt="Campus" height="40px" width="40px" />
+            <Text>CAMPUS</Text>
+          </li>
+          <li style={{ textAlign: 'center', fontSize: '.9rem', borderRadius: '5px', padding: '5px' }}>
+            <Image src={why12} alt="Expert Instruction" height="40px" width="40px" />
+            <Text>EXPERT INSTRUCTION</Text>
+          </li>
+          <li style={{ textAlign: 'center', fontSize: '.9rem', borderRadius: '5px', padding: '5px' }}>
+            <Image src={why123} alt="Training Methods" height="40px" width="40px" />
+            <Text>TRAINING METHODS</Text>
+          </li>
+          <li style={{ textAlign: 'center', fontSize: '.9rem', borderRadius: '5px', padding: '5px' }}>
+            <Image src={why124} alt="Ratio" height="40px" width="40px" />
+            <Text>RATIO</Text>
+          </li>
+          <li style={{ textAlign: 'center', fontSize: '.9rem', borderRadius: '5px', padding: '5px', backgroundColor: 'rgba(185, 1, 36, 1)' }}>
+            <Image src={why125} alt="Management" height="40px" width="40px" />
+            <Text color="white">MANAGEMENT</Text>
+          </li>
+        </ul>
+      </Box>
+    </Flex>
+  </Box>
   );
 }
 
