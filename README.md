@@ -10,6 +10,14 @@ This homepage showcases various sections such as content display, images, text e
 ## Deployment
 
 The homepage is deployed using Netlify. The live version can be accessed at [link](https://65f264f330634364d7709a9b--incomparable-puppy-f8f286.netlify.app/).
+![Image 1](https://drive.google.com/uc?export=view&id=1E2EoPIjFUcmg68ov0_2iLPTlDP-ZwbQp)
+
+![Image 2](https://drive.google.com/uc?export=view&id=1dLYJYb5z4QjOWVEGBX0VzVgQ08GDqZ8H)
+
+![Image 3](https://drive.google.com/uc?export=view&id=1j0BNbGsUzf4HDEHgRoR0vZicRcXRJKcg)
+
+![Image 4](https://drive.google.com/uc?export=view&id=18YGmB3BS_iyYdqDL9fnFpPoKMWVZV4jv)
+
 
 ## Technologies Used
 
